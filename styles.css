@@ -55,3 +55,13 @@ body {
 		float: none;
 	}
 }
+
+section {
+	background-color: #f1f1f1;
+	width: 95%;
+	margin: auto;
+	margin-top: 10px;
+	border: 1px solid darkgrey;
+	padding: 10px 10px;
+	border-radius: 5px;
+}
