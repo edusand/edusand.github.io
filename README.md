@@ -1,2 +1,2 @@
 # eduardsandpo.github.io
-Personal Site
+Personal Site. JFF (Just for Fun)
