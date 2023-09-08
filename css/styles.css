@@ -1,0 +1,26 @@
+:root {
+	--accent-color: green;
+	--bg-color: #ccd7d1;
+	
+	--accented-txt-color: white;
+	--txt-color: black;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+navbar {
+	background-color: var(--accent-color);
+	color: var(--accented-txt-color);
+	width: 30%;
+	height: 100vh;
+	position: fixed;
+}
+
+main {
+	width: 70%;
+	height: 100vh;
+}
