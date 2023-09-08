@@ -1,5 +1,5 @@
 :root {
-	--accent-color: green;
+	--accent-color: #283e43;
 	--bg-color: #ccd7d1;
 	
 	--accented-txt-color: white;
@@ -10,17 +10,29 @@ body {
 	margin: 0;
 	display: flex;
 	justify-content: space-between;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: larger;
 }
 
 navbar {
-	background-color: var(--accent-color);
-	color: var(--accented-txt-color);
+	background-image: url("../assets/imgs/navbar-bg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 	width: 30%;
 	height: 100vh;
 	position: fixed;
+	justify-items: center;
+}
+
+navbar img {
+	width: 50%;
+	border-radius: 50%;
 }
 
 main {
 	width: 70%;
 	height: 100vh;
+	margin-left: 30%;
+	padding: 30px;
 }
